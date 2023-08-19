@@ -8,6 +8,7 @@ import {ReactComponent as ImgRegularIcon} from '../../assets/icons/kg-img-regula
 import {ReactComponent as ImgReplaceIcon} from '../../assets/icons/kg-replace.svg';
 import {ReactComponent as ImgWideIcon} from '../../assets/icons/kg-img-wide.svg';
 import {ReactComponent as ItalicIcon} from '../../assets/icons/kg-italic.svg';
+import {ReactComponent as UnderlineIcon} from '../../assets/icons/kg-underline.svg';
 import {ReactComponent as LinkIcon} from '../../assets/icons/kg-link.svg';
 import {ReactComponent as QuoteIcon} from '../../assets/icons/kg-quote.svg';
 import {ReactComponent as QuoteOneIcon} from '../../assets/icons/kg-quote-1.svg';
@@ -18,6 +19,7 @@ import {ReactComponent as TrashIcon} from '../../assets/icons/kg-trash.svg';
 export const TOOLBAR_ICONS = {
     bold: BoldIcon,
     italic: ItalicIcon,
+    underline: UnderlineIcon,
     headingOne: HeadingOneIcon,
     headingTwo: HeadingTwoIcon,
     quote: QuoteIcon,

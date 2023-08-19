@@ -49,6 +49,7 @@ export default function FormatToolbar({
 }) {
     const [isBold, setIsBold] = React.useState(false);
     const [isItalic, setIsItalic] = React.useState(false);
+    const [isUnderline, setIsUnderline] = React.useState(false);
     const [blockType, setBlockType] = React.useState('paragraph');
 
     let hideHeading = false;
@@ -85,6 +86,7 @@ export default function FormatToolbar({
             // update text format
             setIsBold(selection.hasFormat('bold'));
             setIsItalic(selection.hasFormat('italic'));
+            setIsUnderline(selection.hasFormat('underline'));
 
             const anchorNode = getSelectedNode(selection);
             const element = anchorNode.getKey() === 'root'
@@ -178,6 +180,14 @@ export default function FormatToolbar({
                 label="Format text as italics"
                 onClick={() => editor.dispatchCommand(FORMAT_TEXT_COMMAND, 'italic')}
             />
+            <ToolbarMenuItem
+                data-kg-toolbar-button="underline"
+                icon="underline"
+                isActive={isUnderline}
+                label="Format text as underlined"
+                onClick={() => editor.dispatchCommand(FORMAT_TEXT_COMMAND, 'underline')}
+            />
+            <ToolbarMenuSeparator hide={hideQuotes} />
             <ToolbarMenuItem
                 data-kg-toolbar-button="h2"
                 hide={hideHeading}

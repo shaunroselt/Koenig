@@ -52,6 +52,23 @@ test.describe('Editor keyboard shortcuts', async () => {
             await assertHTML(page, html`<p dir="ltr"><em data-lexical-text="true">test</em></p>`);
         });
 
+        test('underline', async function () {
+            await focusEditor(page);
+
+            await page.keyboard.type('test');
+
+            await page.keyboard.down('Shift');
+            await page.keyboard.press('ArrowLeft');
+            await page.keyboard.press('ArrowLeft');
+            await page.keyboard.press('ArrowLeft');
+            await page.keyboard.press('ArrowLeft');
+            await page.keyboard.up('Shift', {delay: 100});
+
+            await page.keyboard.press(`${ctrlOrCmdKey}+U`, {delay: 100});
+
+            await assertHTML(page, html`<p dir="ltr"><em data-lexical-text="true">test</em></p>`);
+        });
+
         test('strikethrough', async function () {
             await focusEditor(page);
 

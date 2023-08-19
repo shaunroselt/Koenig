@@ -24,6 +24,7 @@ import {ReactComponent as ImgPlaceholderIcon} from '../assets/icons/kg-img-place
 import {ReactComponent as ImgRegularIcon} from '../assets/icons/kg-img-regular.svg';
 import {ReactComponent as ImgWideIcon} from '../assets/icons/kg-img-wide.svg';
 import {ReactComponent as ItalicIcon} from '../assets/icons/kg-italic.svg';
+import {ReactComponent as UnderlineIcon} from '../assets/icons/kg-underline.svg';
 import {ReactComponent as LinkIcon} from '../assets/icons/kg-link.svg';
 import {ReactComponent as MarkdownCardIcon} from '../assets/icons/kg-card-type-markdown.svg';
 import {ReactComponent as NftCardIcon} from '../assets/icons/kg-card-type-nft.svg';
@@ -104,6 +105,8 @@ const DesignSandbox = () => {
                 <ul className="m-0 flex items-center justify-evenly rounded bg-black px-1 py-0 font-sans text-md font-normal text-white">
                     <ToolbarItem Icon={BoldIcon} label="Format text as bold" />
                     <ToolbarItem Icon={ItalicIcon} label="Format text as italics" />
+                    <ToolbarItem Icon={UnderlineIcon} label="Format text as underlined" />
+                    <ToolbarSeparator />
                     <ToolbarItem Icon={HeadingOneIcon} label="Toggle heading 1" />
                     <ToolbarItem Icon={HeadingTwoIcon} label="Toggle heading 2" />
                     <ToolbarSeparator />

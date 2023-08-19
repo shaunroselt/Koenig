@@ -34,6 +34,11 @@ Italic.args = {
     icon: 'italic'
 };
 
+export const Underline = Template.bind({});
+Underline.args = {
+    icon: 'underline'
+};
+
 export const HeadingOne = Template.bind({});
 HeadingOne.args = {
     icon: 'headingOne'

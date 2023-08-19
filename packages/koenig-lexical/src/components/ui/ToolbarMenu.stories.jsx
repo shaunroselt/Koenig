@@ -14,6 +14,7 @@ import {ImgRegular} from './ToolbarMenuItem.stories';
 import {ImgReplace} from './ToolbarMenuItem.stories';
 import {ImgWide} from './ToolbarMenuItem.stories';
 import {Italic} from './ToolbarMenuItem.stories';
+import {Underline} from './ToolbarMenuItem.stories';
 import {Link} from './ToolbarMenuItem.stories';
 import {Quote} from './ToolbarMenuItem.stories';
 import {Snippet} from './ToolbarMenuItem.stories';
@@ -43,6 +44,8 @@ Text.args = {
     children: [
         <Bold {...Bold.args} />,
         <Italic {...Italic.args} />,
+        <Underline {...Underline.args} />,
+        <ToolbarMenuSeparator />,
         <HeadingOne {...HeadingOne.args} />,
         <HeadingTwo {...HeadingTwo.args} />,
         <ToolbarMenuSeparator />,
