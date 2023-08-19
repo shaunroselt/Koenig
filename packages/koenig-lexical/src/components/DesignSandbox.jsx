@@ -24,7 +24,6 @@ import {ReactComponent as ImgPlaceholderIcon} from '../assets/icons/kg-img-place
 import {ReactComponent as ImgRegularIcon} from '../assets/icons/kg-img-regular.svg';
 import {ReactComponent as ImgWideIcon} from '../assets/icons/kg-img-wide.svg';
 import {ReactComponent as ItalicIcon} from '../assets/icons/kg-italic.svg';
-import {ReactComponent as UnderlineIcon} from '../assets/icons/kg-underline.svg';
 import {ReactComponent as LinkIcon} from '../assets/icons/kg-link.svg';
 import {ReactComponent as MarkdownCardIcon} from '../assets/icons/kg-card-type-markdown.svg';
 import {ReactComponent as NftCardIcon} from '../assets/icons/kg-card-type-nft.svg';
@@ -40,6 +39,7 @@ import {ReactComponent as SoundcloudCardIcon} from '../assets/icons/kg-card-type
 import {ReactComponent as SpotifyCardIcon} from '../assets/icons/kg-card-type-spotify.svg';
 import {ReactComponent as ToggleCardIcon} from '../assets/icons/kg-card-type-toggle.svg';
 import {ReactComponent as TwitterCardIcon} from '../assets/icons/kg-card-type-twitter.svg';
+import {ReactComponent as UnderlineIcon} from '../assets/icons/kg-underline.svg';
 import {ReactComponent as UnsplashCardIcon} from '../assets/icons/kg-card-type-unsplash.svg';
 import {ReactComponent as VideoCardIcon} from '../assets/icons/kg-card-type-video.svg';
 import {ReactComponent as VimeoCardIcon} from '../assets/icons/kg-card-type-vimeo.svg';
